@@ -1,0 +1,53 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+.bloc-list {
+	  list-style: none;
+   text-align: center;   
+}
+
+.bloc-list > .bloc-item {
+  display : inline-block;
+  border : none;
+  width : 200px;
+  text-align : center;
+  margin : 25px;
+}
+
+.bloc-item .bloc-item-image {
+  display : block;
+  width : 100%;
+}
+
+.bloc-item .bloc-item-name {
+  display : block;
+  width : 100%;
+}
